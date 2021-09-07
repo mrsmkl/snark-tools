@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/nevermined-io/snark-tools#readme",
   "dependencies": {
+    "@nevermined-io/contracts": "^1.1.6",
     "@nevermined-io/nevermined-sdk-js": "/home/sami/nvm/sdk-js"
   },
   "devDependencies": {
