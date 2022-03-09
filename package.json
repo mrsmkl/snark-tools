@@ -1,7 +1,7 @@
 {
   "name": "@nevermined-io/snark-tools",
-  "version": "0.0.1",
-  "description": "Javascript SDK for connecting with Nevermined Data Platform ",
+  "version": "0.0.2",
+  "description": "Snark proving tool for Nevermined DTPs",
   "scripts": {
     "build": "npm run clean && npm run build:tsc",
     "build:tsc": "tsc --sourceMap",
@@ -29,10 +29,9 @@
   },
   "homepage": "https://github.com/nevermined-io/snark-tools#readme",
   "dependencies": {
-    "circom": "^0.5.45",
-    "circomlib": "^0.5.3",
-    "ffjavascript": "^0.2.38",
-    "snarkjs": "^0.4.6"
+    "circomlibjs": "^0.1.1",
+    "ffjavascript": "^0.2.50",
+    "snarkjs": "^0.4.14"
   },
   "devDependencies": {},
   "nyc": {
