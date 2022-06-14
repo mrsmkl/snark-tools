@@ -1,6 +1,6 @@
 {
   "name": "@nevermined-io/snark-tools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Snark proving tool for Nevermined DTPs",
   "scripts": {
     "build": "npm run clean && npm run build:tsc",
@@ -31,7 +31,7 @@
   "dependencies": {
     "circomlibjs": "^0.1.1",
     "ffjavascript": "^0.2.50",
-    "snarkjs": "^0.4.14"
+    "snarkjs": "0.4.14"
   },
   "devDependencies": {},
   "nyc": {
